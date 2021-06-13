@@ -1,0 +1,87 @@
+:root {
+    /*  Default SAFE colors  */
+    --clr-blue: #0d6efd;
+    --clr-indigo: #6610f2;
+    --clr-purple: #6f42c1;
+    --clr-pink: #d63384;
+    --clr-red: #dc3545;
+    --clr-orange: #fd7e14;
+    --clr-yellow: #ffc107;
+    --clr-green: #198754;
+    --clr-teal: #20c997;
+    --clr-cyan: #0dcaf0;
+    --clr-white: #fff;
+    --clr-gray: #6c757d;
+    --clr-gray-dark: #343a40;
+    --clr-secondary: #6c757d;
+    --clr-success: #198754;
+    --clr-info: #0dcaf0;
+    --clr-warning: #ffc107;
+    --clr-danger: #dc3545;
+    --clr-light: #f8f9fa;
+    --clr-dark: #212529;
+    
+    /*  Site's SAFE color  */
+    --clr-black: #000;
+    --clr-primary: #faae2a;
+}
+
+
+html, body {
+    color: var(--clr-black);
+    background-color: var(--clr-black);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.panel-body {
+    background-color: var(--clr-primary);
+    border: 0;
+}
+
+#email {
+    color: var(--clr-primary);
+    background-color: var(--clr-black);
+    border: none !important;
+}
+
+#email::placeholder {
+    color: var(--clr-primary);
+    background-color: var(--clr-black);
+}
+
+#email:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.btn {
+    transition: 1s;
+    border: 0;
+    color: var(--clr-black);
+    background-color: var(--clr-primary);
+}
+
+.btn:hover {
+    border: 0;
+    color: var(--clr-primary);
+    background-color: var(--clr-black);
+}
+
+.fa-lock {
+    color: var(--clr-black);
+}
+
+.fa-2x {
+    color: var(--clr-primary) !important;
+}
+
+span {
+    background-color: var(--clr-black) !important;
+    border: none !important;
+}
